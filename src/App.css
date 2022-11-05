@@ -36,24 +36,27 @@ body {
 }
 
 .messages-area {
+  font-family: monospace;
   height: 90%;
   width: 100%;
   padding-top: 0.5em;
   overflow-y: scroll;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: start;
 }
 
 .messages-area > p {
-  font-family: monospace;
-  font-size: 0.6em;
-  max-width: 90%;
+  font-size: 0.5em;
   max-height: 100%;
+  color: #fff;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 .messages-area span {
   color: rgb(1, 158, 22);
+  font-weight: 800;
 }
 
 .input-area {
