@@ -1,0 +1,21 @@
+import './App.css'
+
+function App() {
+  return (
+    <div className="container">
+      <div className="chat">
+        <div className="messages-area">
+          <p><span>_dkkGDIncc9rjs77 </span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, natus ipsa. Harum voluptatibus eveniet dicta vero deleniti! Quidem praesentium nobis nisi enim unde molestias placeat voluptatem suscipit sit. Aut nostrum voluptatum consectetur assumenda. Et, maxime asperiores eveniet sunt illum nam perferendis, voluptate consectetur quasi voluptas quam ullam! Cumque, sed! Illum laborum, cupiditate modi vitae tempora voluptate illo error repellendus incidunt. Possimus, est accusamus minima natus iste nisi perferendis! Beatae magnam praesentium aperiam repellat officiis obcaecati delectus nostrum neque molestias assumenda a est, sed quam ut eligendi quis? Quam dolorum, est minima vitae architecto maxime sunt culpa similique eius labore earum odio eveniet ipsam sint praesentium, accusamus quidem blanditiis numquam odit, maiores officiis obcaecati! Fuga quae nulla cupiditate iure consectetur esse quidem distinctio nisi corrupti, iusto molestiae fugit ipsum deleniti quaerat sequi eveniet voluptas reprehenderit libero ad nostrum eos autem rerum ullam ea! Blanditiis deserunt nam, laboriosam pariatur iusto corrupti architecto modi, quisquam, suscipit maxime amet sed nisi? Aspernatur quae fuga vel qui quia voluptatum eaque aliquid itaque eveniet iste! Illum quibusdam doloribus quis dolor corrupti dicta. Neque architecto quibusdam vero commodi? Mollitia, velit maiores excepturi quos modi veniam dignissimos autem corrupti ipsum neque deserunt quibusdam vel inventore ad cumque, natus voluptatibus! Quidem autem dolor dolores eius quas ipsum veniam sed adipisci minima perspiciatis ut cumque cum, quo nihil in laboriosam sunt consequuntur labore quis perferendis sapiente molestias blanditiis asperiores accusantium! Sed omnis aliquam error accusamus quia quasi dolorum aperiam, eum ducimus architecto blanditiis suscipit quas, sunt assumenda quae. Eum, tempore. Unde, beatae odit molestiae neque dignissimos natus dolorum quas amet totam, aperiam porro eaque debitis quos ipsa voluptate quasi quo numquam doloremque cupiditate cum nihil temporibus libero. Distinctio nam, earum ut reiciendis enim dignissimos aperiam mollitia cumque, eos modi excepturi id temporibus voluptatem nostrum non praesentium explicabo asperiores voluptatum! Repudiandae eius dolores vel tempore quod aliquam commodi nihil? Necessitatibus dolore mollitia, voluptatem odit illo ad esse soluta impedit laborum alias quia inventore beatae nobis doloremque nulla temporibus iure, commodi ratione aliquam cum blanditiis earum officia. Veniam, aut! Ab, quia similique inventore expedita maiores fugit, pariatur impedit minima, soluta voluptatem provident tenetur alias. Expedita numquam cupiditate molestias hic, esse tenetur ullam! Aspernatur ipsam illum vero tempora doloribus saepe dicta architecto distinctio qui maiores pariatur, voluptatem exercitationem praesentium, perspiciatis ipsa quod iure, necessitatibus sapiente eum odit fugit ea nostrum! Eius, autem fugiat libero harum dolorum quasi ad laboriosam ea eaque qui recusandae, quas cum! Unde praesentium cupiditate velit voluptas odio eius exercitationem deserunt corrupti nam, ab perspiciatis ratione suscipit eligendi nihil, nisi perferendis! Necessitatibus veritatis sed consequuntur accusamus ducimus doloremque officiis in odio molestias error esse pariatur animi magni rem illo adipisci aperiam, ea voluptates natus blanditiis, iure culpa. Id veritatis suscipit molestias sunt facilis? Error cumque, et optio nisi deleniti neque mollitia voluptatum eum delectus culpa iste nobis dignissimos explicabo quidem rem placeat molestias esse earum corporis nam? Accusantium voluptate deleniti eveniet deserunt dolores rem neque asperiores soluta aliquam accusamus, sunt maiores numquam saepe id quod error officiis maxime commodi nam.</p>
+        </div>
+        <div className="input-area">
+          <form>
+            <input autoComplete='off' spellCheck={false} type="text" name="message" id="message" />
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default App
