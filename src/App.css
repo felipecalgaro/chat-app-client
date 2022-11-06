@@ -42,6 +42,7 @@ body {
   padding-top: 0.5em;
   overflow-y: scroll;
   display: flex;
+  flex-direction: column;
   justify-content: start;
   align-items: start;
 }
@@ -88,7 +89,7 @@ body {
 }
 
 .input-area input:focus {
-  outline: none;
+  outline: 1px solid rgb(227, 227, 227);
 }
 
 .input-area button {
@@ -107,7 +108,7 @@ body {
   transition-duration: 200ms;
 }
 
-.input-area button:focus {
-  transform: scale(0.96);
+.input-area button:active {
+  transform: scale(0.9);
   transition-duration: 200ms;
 }
