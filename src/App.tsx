@@ -21,8 +21,28 @@ function App() {
       return
     }
 
+    socket.on('connected', id => {
+      const content = 'JOINED'
+
+      setMessages(prev => [...prev, {
+        content,
+        id: '' + Math.random(),
+        userId: id
+      }])
+    })
+
     socket.on('receive-message', message => {
       setMessages(prev => [...prev, message])
+    })
+
+    socket.on('disconnected', id => {
+      const content = 'LEFT'
+
+      setMessages(prev => [...prev, {
+        content,
+        id: '' + Math.random(),
+        userId: id
+      }])
     })
   }, [])
 
